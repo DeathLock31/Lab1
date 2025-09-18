@@ -113,6 +113,7 @@ public class Main {
     // Объявляем объект класса Scanner для ввода данных
     public static Scanner in = new Scanner(System.in);
     // Объявляем объект класса PrintStream для вывода данных
+    public static PrintStream out = System.out;
 
     public static void main(String[] args) {
         // Считываем значения трёх целочисленных значений из консоли
@@ -148,7 +149,6 @@ public class Main {
 
     }
 }
-
 ```
 
 ### 6. Анализ правильности решения
